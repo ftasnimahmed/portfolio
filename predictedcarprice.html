@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Predicted Used Car Price - Farah Ahmed Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+                <div id="intro">
+                    <h1>Portfolio<br />
+                        Project 1</h1>
+                    
+                        <a href=""></a><a href="https://github.com/ftasnimahmed/Predicting-Used-Car-Prices">@github.</a> <a href="https://www.linkedin.com/in/farah-ahmed-549044243/"></a></p>
+                    <ul class="actions">
+                        <!-- <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li> -->
+                    </ul>
+                </div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Intro</a></li>
+							<li class="active"><a href="predictedcarprice.html">Project 1</a></li>
+                            <li><a href="travelers.html">Project 2</a></li>
+                            <li><a href="infographic.html">Project 3</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h1 style="font-size: 55px;">Predicting Used Car Price<br />
+									Using Machine Learning</h1>            
+							
+								</header>
+								<div class="image main"><img src="images/cars.jpg" alt="" /></div>
+                                <h1 style="font-size: 24px;">Project Description: </h1>
+								<p>
+                                    
+                                    Our group project focuses on creating and evaluating a machine learning model to predict the
+                                    prices of secondhand cars. To achieve this, we've gathered a comprehensive dataset tailored
+									for tasks like price prediction, data analysis, and model development.<p>
+                                <h1 style="font-size: 24px;">Data Source: </h1>
+								<p>
+                                    We believe that this dataset can benefit the wider data science community by advancing our
+                                    understanding of automotive pricing models. Our primary goal is to use machine learning techniques
+                                    to build a model that can estimate the prices of older cars accurately. In doing so, we hope to provide
+                                    practical insights and tools that can assist both buyers and sellers in making better-informed decisions
+                                    in the used car market, ultimately enhancing our collective knowledge of this industry.
+                                    The dataset we will be using for the project is a public dataset available in Kaggle. <br />
+                                    <a href="https://www.kaggle.com/datasets/tugberkkaran/used-car-listings-features-and-prices-carscom" target="_blank">
+                                        https://www.kaggle.com/datasets/tugberkkaran/used-car-listings-features-and-prices-carscom</a>. <br />
+                                        
+								<p> The dataset contains a variety of attributes, encompassing details such as the car's brand, model,
+                                    production year, mileage, engine specifications, fuel type, and numerous other factors. The dataset was
+                                    obtained through web scraping from cars.com, a well-recognized online platform dedicated to
+                                    facilitating the trade of pre-owned vehicles. The web scraping process involved the extraction of
+                                    comprehensive information from a diverse range of car listings, covering essential features like the
+                                    car's brand, model, production year, mileage, engine specifications, and more. It's important to
+                                    highlight that this dataset represents a specific moment in time, providing us with a snapshot of the
+                                    used car listings available on the platform during that particular period. <p>
+                                <h1 style="font-size: 24px;">Research Questions: </h1>
+                                </p>
+                                    Q1. How effectively we can develop an accurate machine learning model for predicting used car prices
+                                    based on the available features, and what is the optimal algorithm and feature selection approach to
+                                    achieve this? <br />
+                                    Q2. Which features have the most significant impact on the price of a used car? Can we identify the
+                                    key features that influence car pricing decisions the most? <br />
+                                    Q3. Can data preprocessing techniques, such as transformation, standardization, or normalization,
+                                    enhance the prediction performance of machine learning models? What evaluation metrics should be
+                                    used to assess the performance of the price prediction models? <br />
+                                    Q4. To what extent do the models built on this dataset generalize to new, unseen data?</p>
+
+                                <h1 style="font-size: 24px;">Data Preparation: </h1>
+                                <p>
+                                    Before proceeding with data visualization, meticulous data preparation was undertaken to ensure the quality
+                                    and reliability of insights. Initially, the dimensions of the dataset were examined to understand its structure 
+                                    and scope. Descriptive statistics were generated for the training data, providing a comprehensive overview of 
+                                    key metrics and distributions. This step helped identify potential anomalies or areas requiring special attention. <p>
+
+                                <p>
+                                        The dataset was then transformed, cleaned, and prepared for analysis. Missing values were addressed systematically.
+                                    To prepare the data before missing value imputation, the errors='coerce' parameter was applied to the 'price' column, 
+                                    ensuring that any non-numeric entries were converted to NaN (Not a Number) for consistency. Continuous features with 
+                                    missing values were imputed using the mean, while categorical features were filled with the mode, ensuring data 
+                                    completeness and integrity. <p>
+
+                                <p>
+                                        This thorough preparation process laid the foundation for accurate analysis and meaningful visualizations, providing
+                                    confidence in the insights drawn from the dataset.
+                                </p>
+
+
+                                <h1 style="font-size: 24px;">Data Visualizations: </h1>
+                                <div class="image-gallery">
+                                    <img src="images/Screen Shot 2024-11-21 at 9.53.56 PM.png" style="width: 700px; height: 400px;" alt="Additional Picture 1" />
+                                    <img src="images/Screen Shot 2024-11-21 at 10.31.30 PM.png" style="width: 700px; height: 400px;" alt="Additional Picture 2" />
+                                    <img src="images/Screen Shot 2024-11-21 at 10.43.53 PM.png" style="width: 700px; height: 400px;" alt="Additional Picture 3" />
+                                    <img src="images/Screen Shot 2024-11-21 at 10.50.03 PM.png" style="width: 700px; height: 400px;" alt="Additional Picture 3" />
+                                    <img src="images/Screen Shot 2024-11-21 at 10.51.45 PM.png" style="width: 700px; height: 400px;" alt="Additional Picture 3" />
+                                </div>
+
+
+                                <h1 style="font-size: 24px;">Model Training: </h1>
+                                </p>
+                                    Models: Linear Regression, XGBRegressor, RandomForestRegressor, DecisionTreeRegressor
+                                    LassoCV, RidgeCV, ElasticNetCV. <br />
+                                    Cross Validation: 5-fold. </p>
+
+                                <h1 style="font-size: 24px;">Evaluation Metrics: </h1>
+                                </p> 
+                                    MSE, MAE.
+                                    </p>
+
+                                <div class="image-gallery">
+                                    <img src="images/Screen Shot 2024-11-22 at 11.04.52 AM.png" style="width: 700px; height: 500px;" alt="Additional Picture 3" />
+                                    <img src="images/Screen Shot 2024-11-22 at 11.02.18 AM.png" style="width: 700px; height: 500px;" alt="Additional Picture 3" />
+                                    <img src="images/Screen Shot 2024-11-22 at 11.02.56 AM.png" style="width: 700px; height: 500px;" alt="Additional Picture 3" />
+                                <div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
